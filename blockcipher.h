@@ -7,7 +7,7 @@
    The current block cipher implementation used. You may switch this with a different include of a different
    block cipher implementation, if one wants to.
 */
-#include "cipher/aes.h" // Include your own block cipher here.
+#include "mbedtls/aes.h" // Include your own block cipher here.
 
 #define OCB_BLOCK_SIZE 16 /* Block size by which everything from L_offsets to the underlying block cipher's block size use. It is
                          recommended to be kept 16, as most block ciphers are 16 byte block-based anyway. */
