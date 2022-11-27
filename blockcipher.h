@@ -67,4 +67,4 @@ static int ocb_blockcipher_crypt_block(blockcipher_ctx* ctx, int mode, uint8_t o
     return OCB_BLOCKCIPHER_OK;
 }
 
-#endif H_OCB_BLOCKCIPHER_h
+#endif //H_OCB_BLOCKCIPHER_h
